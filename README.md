@@ -18,9 +18,10 @@ Before you begin:
 Add following script tag in your html page
 
 	script type="text/javascript" src="https://raw.github.com/shephertz/App42_BB10_SDK/master/App42-all-0.6.0.min.js"
-	Initialize your library using following BB10 code.
- 
- App42.initialize("API KEY","SECRET KEY");
+Initialize your library using following BB10 code.
+ 	
+ 	App42.initialize("API KEY","SECRET KEY");
+ 	
  Instantiate the service that you want to use in your App, for example using User service you have to do following.
 
  	var user  = new App42User();
