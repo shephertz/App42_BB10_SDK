@@ -35,7 +35,9 @@ Select Package.
 Steps : 
 	a. SDK path - The path to where the BlackBerry 10 WebWorks SDK is installed. The following are the default SDK paths
 	Windows XP : C:\Program Files\Research In Motion\BlackBerry 10 WebWorks SDK <version>
+	
 	Windows 7 : C:\Program Files (x86)\Research In Motion\BlackBerry 10 WebWorks SDK <version>
+	
 	Mac OS : /Developer/SDKs/Research In Motion/BlackBerry 10 WebWorks SDK <version>
 
 Required: This setting is required to package your application.
