@@ -3,6 +3,8 @@ App42_BB10_SDK
 
 App42 Cloud API Client SDK files for BB10 
 
+- [Download] (https://github.com/shephertz/App42_BB10_SDK/raw/master/1.1/app42_BB10_1.1.zip) the latest App42 BB10 SDK
+
 Before you begin:
 
 1. First you have to download ripple simulator and vmplayer to start with BB10 SDK.
@@ -17,7 +19,7 @@ Before you begin:
 
 Add following script tag in your html page
 
-	script type="text/javascript" src="https://raw.github.com/shephertz/App42_BB10_SDK/master/App42-all-0.6.0.min.js"
+	script type="text/javascript" src="App42-all-x.x.x.min.js"
 Initialize your library using following BB10 code.
  	
  	App42.initialize("API KEY","SECRET KEY");
