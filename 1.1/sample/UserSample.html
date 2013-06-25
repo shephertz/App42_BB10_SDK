@@ -7,14 +7,11 @@
         <link href="../css/create_user_style.css" rel="stylesheet" type="text/css" />
 		<link href="../css/jqueryAlert.css" rel="stylesheet" type="text/css" />
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-        <script type="text/javascript" src="../App42-all-1.5.min.js"></script>
+        <script type="text/javascript" src="../App42-all-1.1.min.js"></script>
         <script type="text/javascript" src="../jqueryAlert.js"></script>
         <script>
+		App42.initialize("YOUR_API_KEY","YOUR_SECRET_KEY");
 		
-		App42.initialize("c8194e929a876e26ec063c0314b1c99d80fd0155fa9d41fae9fb1d2e519b964b","dfe84393743dd698015d000ff4ba6db16a7128bbdc248f552d77390cc40697e0");
-			App42.setBaseUrl("http://182.73.181.76:8082/App42_API_SERVER/cloud/1.0/");
-
-
         function createUser(){
                 var user  = new App42User();
                 var userName = "shashank"+new Date();
