@@ -3,7 +3,7 @@ App42_BB10_SDK
 
 App42 Cloud API Client SDK files for BB10 
 
-- [Download] (https://github.com/shephertz/App42_BB10_SDK/raw/master/1.1/app42_BB10_1.1.zip) the latest App42 BB10 SDK
+- Download  the latest App42 BB10 SDK
 
 Before you begin:
 
