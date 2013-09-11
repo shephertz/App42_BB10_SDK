@@ -1,5 +1,5 @@
 * [Release Version 1.7](https://github.com/shephertz/App42_BB10_SDK/blob/master/Change%20Log.md#version-17)
-* [Release Version 1.6](https://github.com/shephertz/App42_BB20_SDK/blob/master/Change%20Log.md#version-16)
+* [Release Version 1.6](https://github.com/shephertz/App42_BB10_SDK/blob/master/Change%20Log.md#version-16)
 
 ## Version 1.7
 
