@@ -1,7 +1,7 @@
-App42_BB10_SDK
+App42_BPAAS_BB10_SDK
 ====================
 
-App42 Cloud API Client SDK files for BB10 
+App42 BPaaS Cloud API Client SDK files for BB10 
 
 - Download  the latest App42 BB10 SDK
 
@@ -19,10 +19,11 @@ Before you begin:
 
 Add following script tag in your html page
 
-	script type="text/javascript" src="App42-all-x.x.x.min.js"
+	script type="text/javascript" src="App42-BPaaS-all-x.x.x.min.js"
 Initialize your library using following BB10 code.
  	
  	App42.initialize("API KEY","SECRET KEY");
+	App42.setBaseUrl("YOUR API SERVER URL");
  	
  Instantiate the service that you want to use in your App, for example using User service you have to do following.
 
