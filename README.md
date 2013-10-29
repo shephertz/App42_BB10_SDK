@@ -3,7 +3,7 @@ App42_BPAAS_BB10_SDK
 
 App42 BPaaS Cloud API Client SDK files for BB10 
 
-- Download  the latest App42 BB10 SDK
+- Download the App42 BB10 SDK
 
 Before you begin:
 
@@ -15,22 +15,29 @@ Before you begin:
 
 4. For more information plase visit http://developer.blackberry.com/html5/download/
 
-5. Register with App42 to get ApiKey/Secret Key on click [Get Started] (https://apphq.shephertz.com/register/index)
+5. Register with App42 BPaaS to get ApiKey/Secret Key. 
 
 Add following script tag in your html page
 
-	script type="text/javascript" src="App42-BPaaS-all-x.x.x.min.js"
+```javascript
+<script type="text/javascript" src="../App42-BPaaS-all-x.x.x.min.js">
+```
+	
 Initialize your library using following BB10 code.
- 	
- 	App42.initialize("API KEY","SECRET KEY");
-	App42.setBaseUrl("YOUR API SERVER URL");
- 	
+
+```javascript
+App42.initialize("<YOUR_API_KEY>","<YOUR_SECRET KEY");
+App42.setBaseUrl("YOUR_BPAAS_API_SERVER_URL");
+```
  Instantiate the service that you want to use in your App, for example using User service you have to do following.
 
- 	var user  = new App42User();
+```javascript
+var user  = new App42User();
+```	
  	Now you can call associated method of that service. For example user creation can be done with following snippet.
 
- 	user.createUser(userName, pwd, email,
+```javascript
+ 	user.createUser(userName, password, email,
 	{
      	     success: function(object) {
         	 // Callback for Success 
@@ -39,10 +46,10 @@ Initialize your library using following BB10 code.
            // Callback for error 
 		}
     });
+```
 Download the SDK and sample code from our BlackBerry 10 webwork repository to get started.
 
 Running the Sample
-
 
 Steps : 
 
