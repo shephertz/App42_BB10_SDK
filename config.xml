@@ -9,7 +9,7 @@
 	<name>App42 Sample</name>
  
 	<description>
-    A sample application to demonstrate some features.
+    A sample application to demonstrate some features .
 	</description>
 	
 	<content src="UserSample.html" rim:allowInvokeParams="true"/>
