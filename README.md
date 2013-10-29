@@ -19,33 +19,33 @@ Before you begin:
 
 Add following script tag in your html page
 
-```javascript
+```
 <script type="text/javascript" src="../App42-BPaaS-all-x.x.x.min.js">
 ```
 	
 Initialize your library using following BB10 code.
 
-```javascript
-App42.initialize("<YOUR_API_KEY>","<YOUR_SECRET KEY");
-App42.setBaseUrl("YOUR_BPAAS_API_SERVER_URL");
+```
+App42.initialize("<YOUR_API_KEY>","<YOUR_SECRET_KEY">);
+App42.setBaseUrl("<YOUR_BPAAS_API_SERVER_URL>");
 ```
  Instantiate the service that you want to use in your App, for example using User service you have to do following.
 
-```javascript
+```
 var user  = new App42User();
 ```	
- 	Now you can call associated method of that service. For example user creation can be done with following snippet.
+Now you can call associated method of that service. For example user creation can be done with following snippet.
 
-```javascript
- 	user.createUser(userName, password, email,
-	{
-     	     success: function(object) {
-        	 // Callback for Success 
-		},
-            error: function(error) {
-           // Callback for error 
-		}
-    });
+```
+user.createUser(userName, password, email,
+{
+	success: function(object) {
+	 // Callback for Success 
+	},
+    error: function(error) {
+   // Callback for error 
+	}
+});
 ```
 Download the SDK and sample code from our BlackBerry 10 webwork repository to get started.
 
