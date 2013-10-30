@@ -1,7 +1,7 @@
 App42_BPaaS_BB10_SDK
 ====================
 
-App42 BPaaS Cloud API Client SDK files for BB10 
+App42 BPaaS Cloud API Client SDK for BB10 
 
 - Download the App42 BB10 SDK
 
@@ -37,7 +37,10 @@ var user  = new App42User();
 Now you can call associated method of that service. For example user creation can be done with following snippet.
 
 ```
-user.createUser(userName, password, email,
+var userName = "<Enter your username>",
+password = "<Enter your password>",
+emailId = "<Enter your emailId>";
+user.createUser(userName, password, emailId,
 {
 	success: function(object) {
 	 // Callback for Success 
