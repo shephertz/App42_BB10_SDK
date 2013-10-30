@@ -1,4 +1,4 @@
-App42_BPAAS_BB10_SDK
+App42_BPaaS_BB10_SDK
 ====================
 
 App42 BPaaS Cloud API Client SDK files for BB10 
