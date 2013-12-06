@@ -1,42 +1,36 @@
-* [Release Version 1.9.1](https://github.com/shephertz/App42_BB10_SDK/blob/master/Change%20Log.md#version-191)
-* [Release Version 1.9](https://github.com/shephertz/App42_BB10_SDK/blob/master/Change%20Log.md#version-19)
+* [Release Version 2.1](https://github.com/shephertz/App42_BB10_SDK/blob/master/Change%20Log.md#version-21)
+* [Release Version 2.0](https://github.com/shephertz/App42_BB10_SDK/blob/master/Change%20Log.md#version-20)
 
-## Version 1.9.1
+## Version 2.1
 
-**Release Date:** 25-11-2013
+**Release Date:** 06-12-2013
 
-**Release Version:** 1.9.1
+**Release Version:** 2.0
 
 
-**The following features have been pushed :**
-
-```
-Set logged in user
-```
-
-**The following features have been pushed to the storage service :**
+**The following Service have been pushed to the latest :**
 
 ```
-saveOrUpdateDocumentByKeyValue
+Custom Code Service
 ```
 
 **This release contains the following bug fix:**
 
 ```
-Bux fix of setEvent in LogService
+None
 ```
 
+## Version 2.0
 
-## Version 1.9
+**Release Date:** 29-11-2013
 
-**Release Date:** 22-10-2013
+**Release Version:** 2.0
 
-**Release Version:** 1.9
 
 **The following Service have been pushed to the latest :**
 
 ```
-AB Test Service
+Push Notification Service
 ```
 
 **This release contains the following bug fix:**
